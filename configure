@@ -8,12 +8,13 @@ mkdir -p ~/.R
 # Overwrite the ~/.R/Makevars
 #cat <<- EOF > ~/.R/Makevars
 # The following statements are required to use the clang4 binary
-#CC=/usr/local/clang4/bin/clang
-#CXX=/usr/local/clang4/bin/clang++
-#CXX11=/usr/local/clang4/bin/clang++
-#CXX14=/usr/local/clang4/bin/clang++
-#CXX17=/usr/local/clang4/bin/clang++
-#CXX1X=/usr/local/clang4/bin/clang++
+#CC=/usr/local/Cellar/llvm/11.0.0/bin/clang
+#CXX=/usr/local/Cellar/llvm/11.0.0/bin/clang++
+#CXX1X=/usr/local/Cellar/llvm/11.0.0/bin/clang++
+#CXX98=/usr/local/Cellar/llvm/11.0.0/bin/clang++
+#CXX11=/usr/local/Cellar/llvm/11.0.0/bin/clang++
+#CXX14=/usr/local/Cellar/llvm/11.0.0/bin/clang++
+#CXX17=/usr/local/Cellar/llvm/11.0.0/bin/clang++
 #LDFLAGS=-L/usr/local/clang4/lib
 # End clang4 inclusion statements
 #EOF
